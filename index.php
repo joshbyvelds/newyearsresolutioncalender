@@ -52,11 +52,20 @@
                         <th colspan="7">December</th>
                     </tr>
                     <tr>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
+                        <td data-date="2019-12-22">22</td>
+                        <td data-date="2019-12-23">23</td>
+                        <td data-date="2019-12-24">24</td>
+                        <td data-date="2019-12-25">25</td>
+                        <td data-date="2019-12-26">26</td>
+                        <td data-date="2019-12-27">27</td>
+                        <td data-date="2019-12-28">28</td>
+                    </tr>
+                    <tr>
+                        <td data-date="2019-12-29">29</td>
                         <td data-date="2019-12-30">30</td>
-                        <td data-date="2020-12-31">31</td>
+                        <td data-date="2019-12-31">31</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
                         <td class="empty"></td>
                         <td class="empty"></td>
                     </tr>
@@ -71,8 +80,8 @@
                         <td class="empty"></td>
                         <td class="empty"></td>
                         <td data-date="2020-01-01">1</td>
-                        <td class="young-passion-gradient" data-date="2020-01-02">2</td>
-                        <td class="dusty-grass-gradient" data-date="2020-01-03">3</td>
+                        <td data-date="2020-01-02">2</td>
+                        <td data-date="2020-01-03">3</td>
 
                         <td data-date="2020-01-04">4</td>
                     </tr>

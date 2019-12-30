@@ -7,15 +7,41 @@ $(function(){
 
 
     today = yyyy + '-' + mm + '-' + dd;
-    $("td[data-date='"+ today +"']").addClass("aqua-gradient").append("<div class=\"buttons\"><button><i class=\"fas fa-check\"></i></button><button>2</button></div></buttons>");
+    $("td[data-date='"+ today +"']").addClass("aqua-gradient").append("<div class=\"buttons\"><button data-task=\"1\">1</button><button data-task=\"2\">2</button></div></buttons>");
 
-    // First check all the "complete days from database"
-    $.post("")
+    // Get Calender Data from database..
+    $.post("post/checkdays.php", {}, function(j){
+        var json = JSON.parse(j);
 
-    // Then mark all other days before todays as incomplete
+        // First check for what days have been completed..
+        json.completed_days.forEach(function(date){
+            $("td[data-date='"+ date +"']").addClass("dusty-grass-gradient");
+        });
 
-    // check which of todays tasks have been checked..
+        // Then mark all other days before todays as incomplete
+        $("td[data-date='"+ today +"']").prevAll('td').not('.dusty-grass-gradient').not('.empty').addClass('young-passion-gradient');
+        $("td[data-date='"+ today +"']").parent().prevAll('tr').find('td').not('.dusty-grass-gradient').not('.empty').addClass('young-passion-gradient');
 
+        // check which of todays tasks have been checked..
+        json.today_tasks.forEach(function(task){
+            $("td button[data-task='" + task + "'").html("<i class=\"fas fa-check\"></i>").attr("data-complete", true);
+        });
+    });
+
+    $('.buttons').off().on('click', 'button', function(){
+        var $btn = $(this);
+
+        // check if task is already complete..
+        if($(this).attr('data-complete')){
+            return;
+        }
+
+        // store completed task in DB.
+        $.post("post/completetask.php", {'task':$btn.attr('data-task')}, function(j){
+            var json = JSON.parse(j);
+            $btn.html("<i class=\"fas fa-check\"></i>").attr("data-complete", true);
+        });
+    });
 
    function adjustCalenderHeight(){
        $("#calender-wrapper").css("max-height", ($(window).height() - $("header").outerHeight() - 20) + "px");
