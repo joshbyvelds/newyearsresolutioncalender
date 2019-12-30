@@ -36,6 +36,7 @@ if (count($result) !== 0){
             break;
         }
 
+        // add completed task to task array
        array_push($todays_tasks, $row['task']);
 
     }
