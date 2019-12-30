@@ -1,0 +1,33 @@
+header{
+    padding: 20px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.calender-wrapper{
+    overflow-y: scroll;
+}
+
+table{
+    tr{}
+
+    td{
+        border: solid 1px black;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        text-shadow: 0 1px 3px black;
+
+        &.empty {
+            background: #bbb;
+        }
+
+    }
+
+    button{
+        font-size: 16px;
+    }
+
+}
