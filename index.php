@@ -21,6 +21,15 @@
 </head>
 <body>
 
+
+<?php
+// Get how many days are left..
+$cdate = mktime(0, 0, 0, 1, 1, 2021);
+$today = time();
+$difference = $cdate - $today;
+if ($difference < 0) { $difference = 0; }
+?>
+
 <div class="container">
     <div class="row">
         <header class="col-12">
@@ -33,15 +42,18 @@
         <div class="col-lg-4">
             <h3>Current Resolutions</h3>
             <ol>
-                <li>Practice Drawing for 30 minutes every day</li>
-                <li>Do DDP Yoga every day</li>
+                <li data-task="1">Practice Drawing for 30 minutes every day</li>
+                <li data-task="2">Do DDP Yoga every day</li>
             </ol>
 
             <h3>Days to Go</h3>
-            <h1>360</h1>
+            <h1><?php echo floor($difference/60/60/24) ?></h1>
 
             <h3>Current Points</h3>
-            <h2>0/728</h2>
+            <h2><span id="points_amount">0</span>/732</h2>
+            <div class="progress">
+                <div class="progress-bar" id="points_progress_bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="728"></div>
+            </div>
         </div>
 
         <!-- Calender Tables -->
