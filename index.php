@@ -59,29 +59,6 @@ if ($difference < 0) { $difference = 0; }
         <!-- Calender Tables -->
         <div class="col-lg-8">
             <div class="calender-wrapper" id="calender-wrapper">
-                <table>
-                    <tr>
-                        <th colspan="7">December</th>
-                    </tr>
-                    <tr>
-                        <td data-date="2019-12-22">22</td>
-                        <td data-date="2019-12-23">23</td>
-                        <td data-date="2019-12-24">24</td>
-                        <td data-date="2019-12-25">25</td>
-                        <td data-date="2019-12-26">26</td>
-                        <td data-date="2019-12-27">27</td>
-                        <td data-date="2019-12-28">28</td>
-                    </tr>
-                    <tr>
-                        <td data-date="2019-12-29">29</td>
-                        <td data-date="2019-12-30">30</td>
-                        <td data-date="2019-12-31">31</td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                        <td class="empty"></td>
-                    </tr>
-                </table>
                 <!-- January -->
                 <table>
                     <tr>
@@ -183,10 +160,602 @@ if ($difference < 0) { $difference = 0; }
                         <td data-date="2020-02-26">26</td>
                         <td data-date="2020-02-27">27</td>
                         <td data-date="2020-02-28">28</td>
+                        <td data-date="2020-02-28">29</td>
+                    </tr>
+                </table>
+
+                <!-- March -->
+                <table>
+                    <tr>
+                        <th colspan="7">March</th>
+                    </tr>
+                    <tr>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                        <td data-date="2020-03-05">5</td>
+                        <td data-date="2020-03-06">6</td>
+                        <td data-date="2020-03-07">7</td>
+
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-08">8</td>
+                        <td data-date="2020-03-09">9</td>
+                        <td data-date="2020-03-10">10</td>
+                        <td data-date="2020-03-11">11</td>
+                        <td data-date="2020-03-12">12</td>
+                        <td data-date="2020-03-13">13</td>
+                        <td data-date="2020-03-14">14</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-15">15</td>
+                        <td data-date="2020-03-16">16</td>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                        <td data-date="2020-03-19">19</td>
+                        <td data-date="2020-03-20">20</td>
+                        <td data-date="2020-03-21">21</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-22">22</td>
+                        <td data-date="2020-03-23">23</td>
+                        <td data-date="2020-03-24">24</td>
+                        <td data-date="2020-03-25">25</td>
+                        <td data-date="2020-03-26">26</td>
+                        <td data-date="2020-03-27">27</td>
+                        <td data-date="2020-03-28">28</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                        <td data-date="2020-03-31">31</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
                         <td class="empty"></td>
                     </tr>
                 </table>
 
+                <!-- April -->
+                <table>
+                    <tr>
+                        <th colspan="7">April</th>
+                    </tr>
+
+                    <tr>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-05">5</td>
+                        <td data-date="2020-03-06">6</td>
+                        <td data-date="2020-03-07">7</td>
+                        <td data-date="2020-03-08">8</td>
+                        <td data-date="2020-03-09">9</td>
+                        <td data-date="2020-03-10">10</td>
+                        <td data-date="2020-03-11">11</td>
+                    </tr>
+                    <tr>
+                        <td data-date="2020-03-12">12</td>
+                        <td data-date="2020-03-13">13</td>
+                        <td data-date="2020-03-14">14</td>
+                        <td data-date="2020-03-15">15</td>
+                        <td data-date="2020-03-16">16</td>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-19">19</td>
+                        <td data-date="2020-03-20">20</td>
+                        <td data-date="2020-03-21">21</td>
+                        <td data-date="2020-03-22">22</td>
+                        <td data-date="2020-03-23">23</td>
+                        <td data-date="2020-03-24">24</td>
+                        <td data-date="2020-03-25">25</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-26">26</td>
+                        <td data-date="2020-03-27">27</td>
+                        <td data-date="2020-03-28">28</td>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                    </tr>
+                </table>
+
+                <!-- May -->
+                <table>
+                    <tr>
+                        <th colspan="7">May</th>
+                    </tr>
+
+                    <tr>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                        <td data-date="2020-03-05">5</td>
+                        <td data-date="2020-03-06">6</td>
+                        <td data-date="2020-03-07">7</td>
+                        <td data-date="2020-03-08">8</td>
+                        <td data-date="2020-03-09">9</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-10">10</td>
+                        <td data-date="2020-03-11">11</td>
+                        <td data-date="2020-03-12">12</td>
+                        <td data-date="2020-03-13">13</td>
+                        <td data-date="2020-03-14">14</td>
+                        <td data-date="2020-03-15">15</td>
+                        <td data-date="2020-03-16">16</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                        <td data-date="2020-03-19">19</td>
+                        <td data-date="2020-03-20">20</td>
+                        <td data-date="2020-03-21">21</td>
+                        <td data-date="2020-03-22">22</td>
+                        <td data-date="2020-03-23">23</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-24">24</td>
+                        <td data-date="2020-03-25">25</td>
+                        <td data-date="2020-03-26">26</td>
+                        <td data-date="2020-03-27">27</td>
+                        <td data-date="2020-03-28">28</td>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-31">31</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                    </tr>
+                </table>
+
+                <!-- June -->
+                <table>
+                    <tr>
+                        <th colspan="7">June</th>
+                    </tr>
+
+                    <tr>
+                        <td class="empty"></td>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                        <td data-date="2020-03-05">5</td>
+                        <td data-date="2020-03-06">6</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-07">7</td>
+                        <td data-date="2020-03-08">8</td>
+                        <td data-date="2020-03-09">9</td>
+                        <td data-date="2020-03-10">10</td>
+                        <td data-date="2020-03-11">11</td>
+                        <td data-date="2020-03-12">12</td>
+                        <td data-date="2020-03-13">13</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-14">14</td>
+                        <td data-date="2020-03-15">15</td>
+                        <td data-date="2020-03-16">16</td>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                        <td data-date="2020-03-19">19</td>
+                        <td data-date="2020-03-20">20</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-21">21</td>
+                        <td data-date="2020-03-22">22</td>
+                        <td data-date="2020-03-23">23</td>
+                        <td data-date="2020-03-24">24</td>
+                        <td data-date="2020-03-25">25</td>
+                        <td data-date="2020-03-26">26</td>
+                        <td data-date="2020-03-27">27</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-28">28</td>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                    </tr>
+                </table>
+
+                <!-- July -->
+                <table>
+                    <tr>
+                        <th colspan="7">July</th>
+                    </tr>
+
+
+                    <tr>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                    </tr>
+
+                   <tr>
+                       <td data-date="2020-03-05">5</td>
+                       <td data-date="2020-03-06">6</td>
+                       <td data-date="2020-03-07">7</td>
+                       <td data-date="2020-03-08">8</td>
+                       <td data-date="2020-03-09">9</td>
+                       <td data-date="2020-03-10">10</td>
+                       <td data-date="2020-03-11">11</td>
+                   </tr>
+
+                    <tr>
+                        <td data-date="2020-03-12">12</td>
+                        <td data-date="2020-03-13">13</td>
+                        <td data-date="2020-03-14">14</td>
+                        <td data-date="2020-03-15">15</td>
+                        <td data-date="2020-03-16">16</td>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-19">19</td>
+                        <td data-date="2020-03-20">20</td>
+                        <td data-date="2020-03-21">21</td>
+                        <td data-date="2020-03-22">22</td>
+                        <td data-date="2020-03-23">23</td>
+                        <td data-date="2020-03-24">24</td>
+                        <td data-date="2020-03-25">25</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-26">26</td>
+                        <td data-date="2020-03-27">27</td>
+                        <td data-date="2020-03-28">28</td>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                        <td data-date="2020-03-31">31</td>
+                        <td class="empty"></td>
+                    </tr>
+                </table>
+
+                <!-- August -->
+                <table>
+                    <tr>
+                        <th colspan="7">August</th>
+                    </tr>
+
+                    <tr>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td data-date="2020-03-01">1</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                        <td data-date="2020-03-05">5</td>
+                        <td data-date="2020-03-06">6</td>
+                        <td data-date="2020-03-07">7</td>
+                        <td data-date="2020-03-08">8</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-09">9</td>
+                        <td data-date="2020-03-10">10</td>
+                        <td data-date="2020-03-11">11</td>
+                        <td data-date="2020-03-12">12</td>
+                        <td data-date="2020-03-13">13</td>
+                        <td data-date="2020-03-14">14</td>
+                        <td data-date="2020-03-15">15</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-16">16</td>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                        <td data-date="2020-03-19">19</td>
+                        <td data-date="2020-03-20">20</td>
+                        <td data-date="2020-03-21">21</td>
+                        <td data-date="2020-03-22">22</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-23">23</td>
+                        <td data-date="2020-03-24">24</td>
+                        <td data-date="2020-03-25">25</td>
+                        <td data-date="2020-03-26">26</td>
+                        <td data-date="2020-03-27">27</td>
+                        <td data-date="2020-03-28">28</td>
+                        <td data-date="2020-03-29">29</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-30">30</td>
+                        <td data-date="2020-03-31">31</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                    </tr>
+
+
+                </table>
+
+                <!-- September -->
+                <table>
+                    <tr>
+                        <th colspan="7">September</th>
+                    </tr>
+
+                    <tr>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                        <td data-date="2020-03-05">5</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-06">6</td>
+                        <td data-date="2020-03-07">7</td>
+                        <td data-date="2020-03-08">8</td>
+                        <td data-date="2020-03-09">9</td>
+                        <td data-date="2020-03-10">10</td>
+                        <td data-date="2020-03-11">11</td>
+                        <td data-date="2020-03-12">12</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-13">13</td>
+                        <td data-date="2020-03-14">14</td>
+                        <td data-date="2020-03-15">15</td>
+                        <td data-date="2020-03-16">16</td>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                        <td data-date="2020-03-19">19</td>
+                    </tr>
+
+                   <tr>
+                       <td data-date="2020-03-20">20</td>
+                       <td data-date="2020-03-21">21</td>
+                       <td data-date="2020-03-22">22</td>
+                       <td data-date="2020-03-23">23</td>
+                       <td data-date="2020-03-24">24</td>
+                       <td data-date="2020-03-25">25</td>
+                       <td data-date="2020-03-26">26</td>
+                   </tr>
+
+                    <tr>
+                        <td data-date="2020-03-27">27</td>
+                        <td data-date="2020-03-28">28</td>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                    </tr>
+
+                </table>
+
+                <!-- October -->
+                <table>
+                    <tr>
+                        <th colspan="7">October</th>
+                    </tr>
+
+                    <tr>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-04">4</td>
+                        <td data-date="2020-03-05">5</td>
+                        <td data-date="2020-03-06">6</td>
+                        <td data-date="2020-03-07">7</td>
+                        <td data-date="2020-03-08">8</td>
+                        <td data-date="2020-03-09">9</td>
+                        <td data-date="2020-03-10">10</td>
+                    </tr>
+
+                   <tr>
+                       <td data-date="2020-03-11">11</td>
+                       <td data-date="2020-03-12">12</td>
+                       <td data-date="2020-03-13">13</td>
+                       <td data-date="2020-03-14">14</td>
+                       <td data-date="2020-03-15">15</td>
+                       <td data-date="2020-03-16">16</td>
+                       <td data-date="2020-03-17">17</td>
+                   </tr>
+
+                    <tr>
+                        <td data-date="2020-03-18">18</td>
+                        <td data-date="2020-03-19">19</td>
+                        <td data-date="2020-03-20">20</td>
+                        <td data-date="2020-03-21">21</td>
+                        <td data-date="2020-03-22">22</td>
+                        <td data-date="2020-03-23">23</td>
+                        <td data-date="2020-03-24">24</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-25">25</td>
+                        <td data-date="2020-03-26">26</td>
+                        <td data-date="2020-03-27">27</td>
+                        <td data-date="2020-03-28">28</td>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                        <td data-date="2020-03-31">31</td>
+                    </tr>
+                </table>
+
+                <!-- November -->
+                <table>
+                    <tr>
+                        <th colspan="7">November</th>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                        <td data-date="2020-03-05">5</td>
+                        <td data-date="2020-03-06">6</td>
+                        <td data-date="2020-03-07">7</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-08">8</td>
+                        <td data-date="2020-03-09">9</td>
+                        <td data-date="2020-03-10">10</td>
+                        <td data-date="2020-03-11">11</td>
+                        <td data-date="2020-03-12">12</td>
+                        <td data-date="2020-03-13">13</td>
+                        <td data-date="2020-03-14">14</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-15">15</td>
+                        <td data-date="2020-03-16">16</td>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                        <td data-date="2020-03-19">19</td>
+                        <td data-date="2020-03-20">20</td>
+                        <td data-date="2020-03-21">21</td>
+                    </tr>
+
+                   <tr>
+                       <td data-date="2020-03-22">22</td>
+                       <td data-date="2020-03-23">23</td>
+                       <td data-date="2020-03-24">24</td>
+                       <td data-date="2020-03-25">25</td>
+                       <td data-date="2020-03-26">26</td>
+                       <td data-date="2020-03-27">27</td>
+                       <td data-date="2020-03-28">28</td>
+                   </tr>
+                    <tr>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                    </tr>
+                </table>
+
+                <!-- December -->
+                <table>
+                    <tr>
+                        <th colspan="7">December</th>
+                    </tr>
+
+                    <tr>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                        <td data-date="2020-03-01">1</td>
+                        <td data-date="2020-03-02">2</td>
+                        <td data-date="2020-03-03">3</td>
+                        <td data-date="2020-03-04">4</td>
+                        <td data-date="2020-03-05">5</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-06">6</td>
+                        <td data-date="2020-03-07">7</td>
+                        <td data-date="2020-03-08">8</td>
+                        <td data-date="2020-03-09">9</td>
+                        <td data-date="2020-03-10">10</td>
+                        <td data-date="2020-03-11">11</td>
+                        <td data-date="2020-03-12">12</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-13">13</td>
+                        <td data-date="2020-03-14">14</td>
+                        <td data-date="2020-03-15">15</td>
+                        <td data-date="2020-03-16">16</td>
+                        <td data-date="2020-03-17">17</td>
+                        <td data-date="2020-03-18">18</td>
+                        <td data-date="2020-03-19">19</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-20">20</td>
+                        <td data-date="2020-03-21">21</td>
+                        <td data-date="2020-03-22">22</td>
+                        <td data-date="2020-03-23">23</td>
+                        <td data-date="2020-03-24">24</td>
+                        <td data-date="2020-03-25">25</td>
+                        <td data-date="2020-03-26">26</td>
+                    </tr>
+
+                    <tr>
+                        <td data-date="2020-03-27">27</td>
+                        <td data-date="2020-03-28">28</td>
+                        <td data-date="2020-03-29">29</td>
+                        <td data-date="2020-03-30">30</td>
+                        <td data-date="2020-03-31">31</td>
+                        <td class="empty"></td>
+                        <td class="empty"></td>
+                    </tr>
+
+                </table>
             </div>
         </div>
     </div>
