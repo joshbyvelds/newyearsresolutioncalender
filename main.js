@@ -48,7 +48,7 @@ $(function(){
     });
 
     function updatePoints(){
-        var points = $('button[data-complete="true"]').length + $('td.dusty-grass-gradient').length;
+        var points = $('button[data-complete="true"]').length + ($('td.dusty-grass-gradient').length * 2);
         $("#points_amount").html(points);
         $("#points_progress_bar").attr("aria-valuenow", points).css("width", (points/732) * 100 + "%")
 

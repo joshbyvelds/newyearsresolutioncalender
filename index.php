@@ -42,7 +42,7 @@ if ($difference < 0) { $difference = 0; }
         <div class="col-lg-4">
             <h3>Current Resolutions</h3>
             <ol>
-                <li data-task="1">Practice Drawing for 30 minutes every day</li>
+                <li data-task="1">Practice Drawing for 20 minutes every day</li>
                 <li data-task="2">Do DDP Yoga every day</li>
             </ol>
 
